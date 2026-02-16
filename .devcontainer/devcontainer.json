@@ -1,0 +1,20 @@
+{
+  "name": "LUMENCO Label Generator",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "nvarner.typst-lsp",
+        "myriad-dreamin.tinymist"
+      ],
+      "settings": {
+        "typst-lsp.exportPdf": "onSave"
+      }
+    }
+  },
+  "forwardPorts": [],
+  "postCreateCommand": "typst --version && convert --version",
+  "remoteUser": "vscode"
+}
