@@ -9,10 +9,14 @@ RUN apt-get update && apt-get install -y \
     curl \
     wget \
     git \
+    ghostscript \
+    xz-utils \
     ca-certificates \
     imagemagick \
     fonts-liberation \
     && rm -rf /var/lib/apt/lists/*
+
+RUN sed -i '/pattern="PDF"/c\\  <policy domain="coder" rights="read|write" pattern="PDF" />' /etc/ImageMagick-6/policy.xml
 
 # Install Typst
 # Using the latest release from GitHub

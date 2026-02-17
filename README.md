@@ -31,4 +31,4 @@ Resources:
 1. Generate 1000 unique labels with sequential serial numbers.
 2. The label needs to comply with FDA CFR 21 Part 801. Add required UDI elements.
   a. Hint: <https://www.fda.gov/medical-devices/unique-device-identification-system-udi-system/udi-basics>
-  b. You should at least skim the requirements to understand what they are
+  b. You should at least skim the requirements to understand what they are, but let an AI do the heavy lifting.
