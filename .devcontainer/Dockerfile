@@ -1,5 +1,5 @@
 # Use Ubuntu as base image
-FROM ubuntu:22.04
+FROM mcr.microsoft.com/devcontainers/base:ubuntu-24.04
 
 # Avoid prompts from apt
 ENV DEBIAN_FRONTEND=noninteractive
