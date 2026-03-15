@@ -6,8 +6,8 @@ Generate a medical device label generator in `labelgen.typ`.
 
 Requirements:
 
-- laid out like `desired_label.png`.
-- dashed line divider 50mm from the bottom.
+- laid out like `desired_layout.png`.
+- dashed line divider 62mm from the bottom.
   - The label is meant to be pasted over the top and front of a box; the cut line indicates the box edge.
   - Have the half-scissors icon aligned centered over the dashed line. There's an internal margin in the image that will position it visually correctly.
 - contain the following ISO 7000 icons:
@@ -32,3 +32,4 @@ Resources:
 2. The label needs to comply with FDA CFR 21 Part 801. Add required UDI elements.
   a. Hint: <https://www.fda.gov/medical-devices/unique-device-identification-system-udi-system/udi-basics>
   b. You should at least skim the requirements to understand what they are, but let an AI do the heavy lifting.
+  
